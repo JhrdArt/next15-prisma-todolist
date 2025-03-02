@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Home ({}) {
   return (
-    <div className='container min-h-screen'>
+    <div className='min-h-screen max-w-7xl mx-auto'>
       <Image
         src='https://53.fs1.hubspotusercontent-na1.net/hubfs/53/To_Do_List.png'
         alt='imagen todo list'

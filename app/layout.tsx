@@ -28,7 +28,7 @@ export default function RootLayout ({
   return (
     <html lang='en' className='dark' style={{ colorScheme: 'dark' }}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased container border border-x border-zinc-800 min-h-screen m-auto space-y-2 relative`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased  border border-x border-zinc-800 min-h-screen m-auto space-y-2 relative`}
       >
         <ThemeProvider
           attribute='class'
